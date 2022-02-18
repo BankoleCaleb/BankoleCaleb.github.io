@@ -1,0 +1,41 @@
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	background-color: #3333;
+	overflow: hidden;
+}
+
+ul li {
+	float: left;
+}
+
+li a {
+	text-decoration: none;
+	display: block;
+	padding: 16px;
+	text-align: center;
+	color: black;
+}
+
+li a:hover {
+	color: green;
+	background-color: #999; 
+}
+
+div.dropdown-content  {
+	display: none;
+	position: absolute;
+	z-index: 1;
+	background-color: #ccc;
+	border: 2px solid black;
+}
+
+.dropdown-content a {
+	display: block;
+	text-decoration: none;
+}
+
+.drp-button:hover .dropdown-content {
+	display: block;
+}
